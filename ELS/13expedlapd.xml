@@ -35,7 +35,7 @@
 	<!-- CRUISE -->
 	<CRUISE>
 		<DisableAtLstg3>true</DisableAtLstg3>
-		<UseExtras Extra1="false" Extra2="false" Extra3="false" Extra4="false" />
+		<UseExtras Extra1="false" Extra2="true" Extra3="true" Extra4="false" />
 	</CRUISE>
 	<!-- AUX CORONAS -->
 	<ACORONAS>
@@ -101,7 +101,7 @@
 	<!-- SECL -->
 	<SECL LightingFormat="traf" DisableAtLstg3="false" >
 		<PresetPatterns>
-			<Lstg1 Enabled="true" Pattern="21" />
+			<Lstg1 Enabled="true" Pattern="4" />
 			<Lstg2 Enabled="true" Pattern="27" />
 			<Lstg3 Enabled="true" Pattern="4" />
 		</PresetPatterns>
@@ -112,7 +112,7 @@
 			<SrnTone3 Enabled="false" Pattern="0" />
 			<SrnTone4 Enabled="false" Pattern="0" />
 			<PanicMde Enabled="false" Pattern="0" />
-			<OutOfVeh Enabled="true" Pattern="31" />
+			<OutOfVeh Enabled="true" Pattern="27" />
 		</ForcedPatterns>
 		<ScanPatternCustomPool Enabled="false" Sequential="true" >
 			<Pattern>0</Pattern>
